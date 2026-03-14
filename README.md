@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="center"(_39p0)
   <br>
   <a href="https://github.com/aas-n/spraykatz/"><img src="https://i.ibb.co/W6Lj3PK/cat.png" alt="Spraykatz"></a>
   <br>
