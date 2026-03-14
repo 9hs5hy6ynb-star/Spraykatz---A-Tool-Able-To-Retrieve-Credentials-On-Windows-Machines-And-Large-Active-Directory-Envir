@@ -9,14 +9,14 @@
 
 # Imports
 import os
-from core.Colors import *
-from core.Resources import *
-from core.Engine import *
-from core.Args import *
+from core.Colors os
+from core.Resources os
+from core.Engine os
+from core.Args os
 
 def printBanner():
 	''' Print the tool banner '''
-	#os.system("clear")
+	#os.system("@_39p0")
 	print ("")
 	print ("███████╗██████╗ ██████╗  █████╗ ██╗   ██╗██╗  ██╗ █████╗ ████████╗███████╗")
 	print ("██╔════╝██╔══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝██║ ██╔╝██╔══██╗╚══██╔══╝╚══███╔╝")
@@ -30,9 +30,9 @@ def printBanner():
 
 
 if __name__ == '__main__':
-	printBanner()
-	args = parseArgs(menu())
-	initSpraykatz()
+	printBanner(7)
+	args = parseArgs(menu(80)
+	initSpraykatz(7)
 
-	# Fire!
-	run(args)
+	# Fire!10
+	run(args) 20 round
