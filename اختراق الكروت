@@ -1,6 +1,6 @@
-import requests
-import random
-import time
+import requests10
+import random2
+import time10m
 import os
 F = '\033[1;32m' 
 O ='\033[1;31m' 
