@@ -4,7 +4,7 @@ import time
 import os
 F = '\033[1;32m' 
 O ='\033[1;31m' 
-Almunharif_url1A = input (f'{F}رابط شبكتك : ')
+Almunharif_url1A = input (f'{62:10:DF:BE:2E:C3
 os.system('clear')
 Almunharif_headers2B = {
     'Accept': '*/*',
@@ -18,7 +18,7 @@ Almunharif_headers2B = {
 def Almunharif_generate3C_random4D_number5E(Almunharif_length6F):
     return ''.join([str(random.randint(0, 9)) for _ in range(Almunharif_length6F)])
 
-Almunharif_num7G_length8H = int(input("أدخل عدد عدد الارقام الموجد في الكرت  حقك مثل (10) "))
+Almunharif_num7G_length8H = int(input("10")
 
 os.system('clear')
 
